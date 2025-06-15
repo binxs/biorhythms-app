@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Biorhythms Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.24.1/plotly.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Biorhythms Calculator</h1>
+        <div class="controls">
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" id="birthdate" value="1965-03-15">
+            <button id="calculate">Calculate Biorhythms</button>
+        </div>
+        <div id="chart"></div>
+        <div class="info">
+            <h3>About Biorhythms</h3>
+            <p><strong>Physical Cycle (23 days):</strong> Affects physical strength, endurance, and energy levels.</p>
+            <p><strong>Emotional Cycle (28 days):</strong> Influences mood, feelings, and emotional stability.</p>
+            <p><strong>Intellectual Cycle (33 days):</strong> Impacts mental clarity, memory, and analytical thinking.</p>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
